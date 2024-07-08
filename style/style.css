@@ -29,3 +29,30 @@ header{
   justify-content: center;
   align-items: center;
 }
+/* discount section styles */
+.discount{
+    text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0; 
+}
+.discount-title{
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    margin-bottom: 48px;
+}
+.discount-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color:  rgb(255, 0, 0);
+
+}
+.discount-description{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
