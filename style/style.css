@@ -56,3 +56,51 @@ header{
     font-weight: 700;
     margin-top: 16px;
 }
+/* party banner styles */
+
+.party-banner{
+    background-image: url(../image/images/Vectorrr.png);
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.party-banner-img{
+    width: 350px;
+    height: 464px;
+    margin: 68px 108px 68px 40px;
+    
+}
+.party-banner-container{
+    display: flex;
+}
+.party-banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 125px;
+}
+.party-banner-title{
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 24px;
+}
+.party-banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 48px;
+}
+.join-now{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
