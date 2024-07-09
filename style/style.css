@@ -104,3 +104,46 @@ header{
     text-decoration: none;
     margin-left: 18px;
 }
+/* venue styles */
+.venue{
+    background-color: rgba(255, 0, 0, 0.1)
+    rgba(255, 0, 0, 0);
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 120px;
+}
+.venue-content{
+  font-family: "Inter", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0; */
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.venue-content-color{
+    color: rgb(255, 0, 0);
+}
+.venue-btn{
+    height: 56px;
+    width: 167px;
+    margin-left: 160px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
